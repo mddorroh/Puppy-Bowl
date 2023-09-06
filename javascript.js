@@ -22,7 +22,7 @@ const fetchPlayers = async()=> {
 };
 
 window.addEventListener('hashchange', ()=> {
-    const hash = window.location.hash.slice(1)*1;
+  const hash = window.location.hash.slice(1)*1;
   const html = players.players.map( player => {
         return `
         <li>
